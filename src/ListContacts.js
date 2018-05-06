@@ -13,17 +13,11 @@ function ListContacts(props){
 						<p className="contact-name">{contact.name}</p>
 						<p className="contact-email">{contact.email}</p>
 					</div>
-					<button className="contact-remove">Remove</button>
+					<button onClick={() => props.onDeleteContact(contact)} className="contact-remove">Remove</button>
 				</li>
 			))}
 		</ol>
 	)
 }
-
-//class ListContacts extends Component {
-//	render(){
-//	
-//	}
-//}
 
 export default ListContacts
