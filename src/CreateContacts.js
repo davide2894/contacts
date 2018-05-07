@@ -4,7 +4,7 @@ class CreateContacts extends Component {
 	
 	render() {
 		return (
-			<div>Hello!!</div>
+			<div>Create Contcts!!!</div>
 		)
 	} 
 }
